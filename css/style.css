@@ -34,11 +34,22 @@ h1{
     border: solid 2px black;
 }
 
+.employee1{
+    height: 100px;
+    width: 150px;
+    display: table;
+
+    
+}
+
 .employee1 img,p{
+    display: table-cell;
     float: left;
     text-align: left;
     margin-left: 10px;
     margin-right: 20px;
+    max-width:100%;
+    max-height:100%;
 }
 
 .employee2 img,p{
